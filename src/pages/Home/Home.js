@@ -4,10 +4,9 @@ import muriel from '../../assets/muriel.jpg'
 import mieri from '../../assets/mieri.jpeg'
 import jeff from '../../assets/jeff.jpeg'
 import victor from '../../assets/vitor.jpeg'
-import { Link, useHistory } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
-  const history = useHistory();
   return (
     <>
         <S.HeaderContainer>
