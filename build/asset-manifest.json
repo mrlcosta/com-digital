@@ -1,26 +1,29 @@
 {
   "files": {
     "main.css": "./static/css/main.a617e044.chunk.css",
-    "main.js": "./static/js/main.42758a9c.chunk.js",
-    "main.js.map": "./static/js/main.42758a9c.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.a9bd168d.js",
-    "runtime-main.js.map": "./static/js/runtime-main.a9bd168d.js.map",
-    "static/js/2.e94d94b1.chunk.js": "./static/js/2.e94d94b1.chunk.js",
-    "static/js/2.e94d94b1.chunk.js.map": "./static/js/2.e94d94b1.chunk.js.map",
-    "static/js/3.1c8be2ae.chunk.js": "./static/js/3.1c8be2ae.chunk.js",
-    "static/js/3.1c8be2ae.chunk.js.map": "./static/js/3.1c8be2ae.chunk.js.map",
+    "main.js": "./static/js/main.f9e48c8a.chunk.js",
+    "main.js.map": "./static/js/main.f9e48c8a.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.c2ed5c1f.js",
+    "runtime-main.js.map": "./static/js/runtime-main.c2ed5c1f.js.map",
+    "static/js/2.8d152c71.chunk.js": "./static/js/2.8d152c71.chunk.js",
+    "static/js/2.8d152c71.chunk.js.map": "./static/js/2.8d152c71.chunk.js.map",
+    "static/js/3.4cffb947.chunk.js": "./static/js/3.4cffb947.chunk.js",
+    "static/js/3.4cffb947.chunk.js.map": "./static/js/3.4cffb947.chunk.js.map",
     "index.html": "./index.html",
     "static/css/main.a617e044.chunk.css.map": "./static/css/main.a617e044.chunk.css.map",
-    "static/js/2.e94d94b1.chunk.js.LICENSE.txt": "./static/js/2.e94d94b1.chunk.js.LICENSE.txt",
+    "static/js/2.8d152c71.chunk.js.LICENSE.txt": "./static/js/2.8d152c71.chunk.js.LICENSE.txt",
+    "static/media/audioLab1.a7de1822.ogg": "./static/media/audioLab1.a7de1822.ogg",
     "static/media/jeff.7de8e354.jpeg": "./static/media/jeff.7de8e354.jpeg",
     "static/media/mieri.30cdf7f2.jpeg": "./static/media/mieri.30cdf7f2.jpeg",
     "static/media/muriel.fbbcefa9.jpg": "./static/media/muriel.fbbcefa9.jpg",
+    "static/media/pdfLab1.293d7f96.pdf": "./static/media/pdfLab1.293d7f96.pdf",
+    "static/media/videoLab1.1480d650.mp4": "./static/media/videoLab1.1480d650.mp4",
     "static/media/vitor.65daae9b.jpeg": "./static/media/vitor.65daae9b.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a9bd168d.js",
-    "static/js/2.e94d94b1.chunk.js",
+    "static/js/runtime-main.c2ed5c1f.js",
+    "static/js/2.8d152c71.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.42758a9c.chunk.js"
+    "static/js/main.f9e48c8a.chunk.js"
   ]
 }

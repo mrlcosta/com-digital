@@ -1,25 +1,35 @@
 import React from 'react';
-import * as S from "./Home.styles";
+import * as S from "./Lab1.styles";
 import muriel from '../../assets/muriel.jpg'
 import mieri from '../../assets/mieri.jpeg'
 import jeff from '../../assets/jeff.jpeg'
 import victor from '../../assets/vitor.jpeg'
-import { Link, useHistory } from 'react-router-dom';
+import audio from '../../assets/audioLab1.ogg'
+import video from '../../assets/videoLab1.mp4'
+import pdfLab1 from '../../assets/pdfLab1.pdf'
+import ReactAudioPlayer from 'react-audio-player';
 
-export default function Home() {
-  const history = useHistory();
+export default function Lab1() {
+ 
   return (
     <>
         <S.HeaderContainer>
+
+            <ReactAudioPlayer
+            src={audio}
+            autoPlay
+            controls
+            />
+            
             <S.Header>
                 <S.HeaderTitle>
-                    CODIFICAÇÃO DE SINAIS MULTIMÍDIA
+                    NÓS MULTIMÍDIA
                 </S.HeaderTitle>
             </S.Header>
 
             <S.SectionTeam>
                 <S.TeamTitle>
-                    Nosso time
+                    Quem somos
                 </S.TeamTitle>
             </S.SectionTeam>
 
@@ -51,7 +61,6 @@ export default function Home() {
                     </S.PersonalDescription>
                 </S.PersonalCard>
 
-
                 <S.PersonalCard>
                     <S.PersonalImg src={jeff}/>
                     <S.CourseTitle>Eng. Informação</S.CourseTitle>
@@ -67,60 +76,34 @@ export default function Home() {
         <S.BodyContainer>
             <S.SectionProject>
                 <S.ProjectTitle>
-                    Projetos
+                    Video da galinha pintadinha live action
                 </S.ProjectTitle>
             </S.SectionProject>
 
+            <S.SectionProject>
+                <video width="320" height="240" controls>
+                    <source src={video} type="video/mp4"/>
+                    Your browser does not support the video tag.
+                </video>
+            </S.SectionProject>
+
+            <S.SectionProject>
+                <S.ProjectTitle>
+                    Video do youtube
+                </S.ProjectTitle>
+            </S.SectionProject>
+
+            <S.SectionProject>
+                <iframe width="365" height="465px" src="https://www.youtube.com/embed/Omnpu8mzX4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </S.SectionProject>
+
             <S.ProjectsContainer>
-                <S.ProjectRow >  
-                    <Link to="/lab1" className="btn_novo_perfil">
-                        <S.ProjectNameAllow > 
-                            Nós Multimídia 
-                        </S.ProjectNameAllow>
-                    </Link>
-                </S.ProjectRow>
-
-                <S.ProjectRow>
-                    <S.ProjectName> 
-                        Vídeo e Animação
-                    </S.ProjectName>
-                </S.ProjectRow>
-
-                <S.ProjectRow>
-                    <S.ProjectName> 
-                        DCT para Imagem
-                    </S.ProjectName>
-                </S.ProjectRow>
-
-                <S.ProjectRow>
-                    <S.ProjectName> 
-                        Percepção Auditiva
-                    </S.ProjectName> 
-                </S.ProjectRow>
-
-                <S.ProjectRow>
-                    <S.ProjectName> 
-                        PDS para Processamento de Voz
-                    </S.ProjectName> 
-                </S.ProjectRow>
-
-                <S.ProjectRow>
-                    <S.ProjectName> 
-                        Codificação de Voz
-                    </S.ProjectName> 
-                </S.ProjectRow>
-
-                <S.ProjectRow >
-                    <S.ProjectName> 
-                        Codificação de Áudio
-                    </S.ProjectName> 
-                </S.ProjectRow>
-
-                <S.ProjectRow>
-                    <S.ProjectName> 
-                        MIDI e Acústica Básica
-                    </S.ProjectName> 
-                </S.ProjectRow>
+                <S.SectionProject>
+                    <S.ProjectTitle>
+                        Arquivo PDF
+                    </S.ProjectTitle>
+                </S.SectionProject>
+                <object data={pdfLab1} width="900" height="700">oi</object>
             </S.ProjectsContainer>
 
         </S.BodyContainer>

@@ -6,13 +6,13 @@ export const Header = styled.div`
     align-items: center;
     width: 100%;
     /* background-color: #a4e0dd; */
-    height: 150px;
+    height: 30px;
 `;
 export const HeaderContainer = styled.div`
     background-color: #dbdbdb;
     width: 100%;
     height: 95vh;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 `;
 
 export const SectionTeam = styled.div`
@@ -91,7 +91,7 @@ export const PersonalDescription = styled.span`
 export const BodyContainer = styled.div`
     background-color: #182228;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     flex-direction: column;
     /* align-content: center; */
@@ -99,15 +99,19 @@ export const BodyContainer = styled.div`
 
 export const SectionProject = styled.div`
     display: flex;
-    justify-content: left;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     width: 100%;
     /* background-color: #d1dedb; */
     height: 100px;
+    margin-top: 35px;
 `;
 
 export const ProjectTitle = styled.span`
     margin-left: 40px;
+    margin-top: 25px;
+    margin-bottom: 10px;
     text-align: center;
     font-size: 37px;
     font-family: sans-serif;
@@ -123,6 +127,8 @@ export const ProjectsContainer = styled.div`
     padding: 0 40px 10px 40px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
 `;
 
@@ -138,14 +144,5 @@ export const ProjectName = styled.span`
     font-family: sans-serif;
     color: #e1e1e1;
     cursor: no-drop;
-    /* cursor: pointer; */
-`;
-
-export const ProjectNameAllow = styled.span`
-    margin-left: 40px;
-    font-size: 30px;
-    font-family: sans-serif;
-    color: #e1e1e1;
-    cursor: pointer;
     /* cursor: pointer; */
 `;
