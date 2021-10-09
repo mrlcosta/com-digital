@@ -80,9 +80,11 @@ export default function Home() {
                 </S.ProjectRow>
 
                 <S.ProjectRow>
-                    <S.ProjectName> 
-                        Vídeo e Animação
-                    </S.ProjectName>
+                    <a target="_blank" href="https://colab.research.google.com/drive/1M6iMx0vx2vbGYF4N4u9bNiCqAIP0ChfZ?usp=sharing" className="btn_novo_perfil" rel="noreferrer">
+                        <S.ProjectNameAllow> 
+                            Vídeo e Animação
+                        </S.ProjectNameAllow>
+                    </a >
                 </S.ProjectRow>
 
                 <S.ProjectRow>
