@@ -88,9 +88,11 @@ export default function Home() {
                 </S.ProjectRow>
 
                 <S.ProjectRow>
-                    <S.ProjectName> 
-                        DCT para Imagem
-                    </S.ProjectName>
+                    <Link to="/lab2" className="btn_novo_perfil">
+                        <S.ProjectNameAllow> 
+                            DCT para Imagem
+                        </S.ProjectNameAllow>
+                    </Link>
                 </S.ProjectRow>
 
                 <S.ProjectRow>
