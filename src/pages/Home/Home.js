@@ -74,7 +74,7 @@ export default function Home() {
                 <S.ProjectRow >  
                     <Link to="/lab1" className="btn_novo_perfil">
                         <S.ProjectNameAllow > 
-                            Nós Multimídia 
+                            lab1 - Nós Multimídia 
                         </S.ProjectNameAllow>
                     </Link>
                 </S.ProjectRow>
@@ -82,7 +82,7 @@ export default function Home() {
                 <S.ProjectRow>
                     <a target="_blank" href="https://colab.research.google.com/drive/1M6iMx0vx2vbGYF4N4u9bNiCqAIP0ChfZ?usp=sharing" className="btn_novo_perfil" rel="noreferrer">
                         <S.ProjectNameAllow> 
-                            Vídeo e Animação
+                            Lab2 - Captura e Processamento de Imagem e Vídeo
                         </S.ProjectNameAllow>
                     </a >
                 </S.ProjectRow>
@@ -90,20 +90,20 @@ export default function Home() {
                 <S.ProjectRow>
                     <Link to="/lab2" className="btn_novo_perfil">
                         <S.ProjectNameAllow> 
-                            DCT para Imagem
+                            Lab 3 - Codificação de Imagem com DCT e Animação Básica
                         </S.ProjectNameAllow>
                     </Link>
                 </S.ProjectRow>
 
                 <S.ProjectRow>
                     <S.ProjectName> 
-                        Percepção Auditiva
+                        Lab 4 - Codificação de Imagem com DWT
                     </S.ProjectName> 
                 </S.ProjectRow>
 
                 <S.ProjectRow>
                     <S.ProjectName> 
-                        PDS para Processamento de Voz
+                        Lab 5 - Percepção Auditiva
                     </S.ProjectName> 
                 </S.ProjectRow>
 
