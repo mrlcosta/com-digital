@@ -88,23 +88,29 @@ export default function Home() {
                 </S.ProjectRow>
 
                 <S.ProjectRow>
-                    <Link to="/lab2" className="btn_novo_perfil">
+                    {/* <Link to="/lab2" className="btn_novo_perfil"> */}
+                        <a target="_blank" href="https://colab.research.google.com/drive/1SO6druWKfXvf6SQ40Cf0G-ACKHV9V1Fi" className="btn_novo_perfil" rel="noreferrer">
+                            <S.ProjectNameAllow> 
+                                Lab 3 - Codificação de Imagem com DCT e Animação Básica
+                            </S.ProjectNameAllow>
+                        </a>
+                    {/* </Link> */}
+                </S.ProjectRow>
+
+                <S.ProjectRow>
+                    <a target="_blank" href="https://drive.google.com/file/d/1B9V06YxIs9o9rxyvE5_FgawYyTVhVSKj/view?usp=sharing" className="btn_novo_perfil" rel="noreferrer">
                         <S.ProjectNameAllow> 
-                            Lab 3 - Codificação de Imagem com DCT e Animação Básica
-                        </S.ProjectNameAllow>
-                    </Link>
+                            Lab 4 - Codificação de Imagem com DWT (abrir com o Colab)
+                        </S.ProjectNameAllow> 
+                    </a>
                 </S.ProjectRow>
 
                 <S.ProjectRow>
-                    <S.ProjectName> 
-                        Lab 4 - Codificação de Imagem com DWT
-                    </S.ProjectName> 
-                </S.ProjectRow>
-
-                <S.ProjectRow>
-                    <S.ProjectName> 
-                        Lab 5 - Percepção Auditiva
-                    </S.ProjectName> 
+                    <a target="_blank" href="https://drive.google.com/file/d/1SnVDV74APEpXPDPGoDbLrIy18-1HxdKE/view?usp=sharing" className="btn_novo_perfil" rel="noreferrer">
+                        <S.ProjectNameAllow> 
+                            Lab 5 - Percepção Auditiva
+                        </S.ProjectNameAllow> 
+                    </a>
                 </S.ProjectRow>
 
                 <S.ProjectRow>
