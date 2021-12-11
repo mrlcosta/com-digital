@@ -114,9 +114,11 @@ export default function Home() {
                 </S.ProjectRow>
 
                 <S.ProjectRow>
-                    <S.ProjectName> 
-                        Codificação de Voz
-                    </S.ProjectName> 
+                    <a target="_blank" href="https://drive.google.com/file/d/1-H3dK_rhHlAtXbuDRgTMliYZIJ_c-maR/view?usp=sharing" className="btn_novo_perfil" rel="noreferrer">
+                        <S.ProjectNameAllow> 
+                            LAB 6 - PDS de Voz
+                        </S.ProjectNameAllow> 
+                    </a>
                 </S.ProjectRow>
 
                 <S.ProjectRow >

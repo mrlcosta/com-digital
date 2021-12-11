@@ -27,7 +27,6 @@ export const SectionTeam = styled.div`
 export const HeaderTitle = styled.span`
     text-align: center;
     font-size: 50px;
-    /* font-family: serif; */
     font-family: monospace;
 `;
 
