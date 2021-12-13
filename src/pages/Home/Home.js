@@ -139,7 +139,7 @@ export default function Home() {
 
 
                 <S.ProjectRow>
-                    <a target="_blank" href="https://drive.google.com/file/d/1hFcwIUmeq8N7X5e-KO42Tl1TQazF4ezT/view?usp=sharing" className="btn_novo_perfil" rel="noreferrer">
+                    <a target="_blank" href="https://colab.research.google.com/drive/1hFcwIUmeq8N7X5e-KO42Tl1TQazF4ezT" className="btn_novo_perfil" rel="noreferrer">
                         <S.ProjectNameAllow>
                             Lab 9 - MIDI e Respostas Impulsivas (abrir com o Colab)
                         </S.ProjectNameAllow> 
