@@ -124,13 +124,13 @@ export default function Home() {
                 <S.ProjectRow >
                     <a target="_blank" href="https://colab.research.google.com/drive/1pGzq49sEmKstBpFt1l5wMX0b1A3N-F_V?usp=sharing" className="btn_novo_perfil" rel="noreferrer">
                         <S.ProjectNameAllow>
-                            Lab 7 - Principios de Codificação da Voz
+                            Lab 7 - Principios de Codificação da Voz (abrir com o Colab)
                         </S.ProjectNameAllow> 
                     </a>
                 </S.ProjectRow>
 
                 <S.ProjectRow >
-                    <a target="_blank" href="https://drive.google.com/file/d/1hfapW_eoUxRCKo1V37VAYP52Q29h8u-f/view" className="btn_novo_perfil" rel="noreferrer">
+                    <a target="_blank" href="https://drive.google.com/drive/folders/1I34AW8dnAIBHYxul6LFQMCycHclPzJwY" className="btn_novo_perfil" rel="noreferrer">
                         <S.ProjectNameAllow>
                             Lab 8 - Codificação de Áudio
                         </S.ProjectNameAllow> 
