@@ -100,7 +100,7 @@ export default function Lab1() {
             <S.ProjectsContainer>
                 <S.SectionProject>
                     <S.ProjectTitle>
-                        Arquivo PDF
+                        Relatório
                     </S.ProjectTitle>
                 </S.SectionProject>
                 <object data={pdfLab1} width="900" height="700">oi</object>

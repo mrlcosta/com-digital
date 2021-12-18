@@ -1,7 +1,7 @@
 import React from 'react';
 import * as S from "./Lab2.styles";
 
-export default function Lab1() {
+export default function Lab2() {
  
   return (
     <>
